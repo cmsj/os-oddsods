@@ -13,3 +13,9 @@ sudo virsh net-destroy brbm
 sudo virsh net-undefine brbm
 
 sudo ovs-vsctl del-br brbm
+
+if [ "$TRIPLEO_ROOT" != "" ]; then
+  rm $TRIPLEO_ROOT/tripleo-passwords
+else
+  echo "TRIPLEO_ROOT unset, unable to complete clean"
+fi
