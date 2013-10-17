@@ -16,6 +16,7 @@ sudo ovs-vsctl del-br brbm
 
 if [ "$TRIPLEO_ROOT" != "" ]; then
   rm $TRIPLEO_ROOT/tripleo-passwords
+  rm $TRIPLEO_ROOT/tripleorc
 else
   echo "TRIPLEO_ROOT unset, unable to complete clean"
 fi
