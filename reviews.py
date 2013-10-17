@@ -16,14 +16,16 @@ FEATURES = [
 
 PROJECTS = [
     "openstack/tripleo-incubator",
-    "openstack/diskimage-builder",
-    "openstack/tripleo-image-elements",
-    "openstack/os-apply-config",
-    "openstack/os-refresh-config",
-    "openstack/os-collect-config",
-    "openstack/tripleo-heat-elements",
-    "openstack/tripleo-heat-templates",
+    "openstack/tuskar",
+    "openstack/tuskar-ui",
     "openstack-infra/tripleo-ci",
+    "openstack/os-apply-config",
+    "openstack/os-collect-config",
+    "openstack/os-refresh-config",
+    "openstack/tripleo-image-elements",
+    "openstack/tripleo-heat-templates",
+    "openstack/diskimage-builder",
+    "openstack/python-tuskarclient"
 ]
 
 
